@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&display=swap');
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    /* border: 0.1px red solid; */
+}
+:root{
+    --color1:#262626;
+    --color2:#fdf0e9;
+    --color3:#28293e;
+    --color4:#ef6d58;
+    --color5:#391400;
+    --color6:#9747ff;
+
+}
+/* Navbar */
+.nav-link{
+    color: white;
+}
+.nav,.hero-section{
+    background-color: var(--color3);
+    color: white;
+}
+.btn{
+    border: 1px white solid;
+}
+.btn:hover{
+    border: 1px var(--color6) solid;
+
+}
+/* Hero Section */
+
+.star{
+    z-index: 0;
+}
+.btn-1{
+    background-color: var(--color4);
+    border: 3px var(--color3) solid;
+}
+.btn-1:hover{
+    background-color: var(--color4);
+    border-radius: 0px;
+    border: 3px var(--color6) solid;
+    transition: none;
+}
+.text-color{
+    color: var(--color4);
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+h1{
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    line-height: 80px;
+}
+
+.agency-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 56px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        line-height: 64px;
+    }
+    .star{
+        display: none;
+    }
+}
