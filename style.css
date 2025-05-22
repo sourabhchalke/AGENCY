@@ -31,6 +31,7 @@
 }
 .btn:hover{
     border: 1px var(--color6) solid;
+    border-radius: 0px;
 
 }
 /* Hero Section */
@@ -75,12 +76,51 @@ h1{
     max-height: 32px; /* or any desired height */
     object-fit: contain;
 }
-.logo-sec{
+.logo-sec,.about,.work{
     background-color: var(--color2);
 }
 hr{
     color: var(--hr);
 }
+
+/* About */
+h2{
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 64px;
+}
+.service-provide{
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+.h3{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    font-weight: 800;
+}
+h4{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+.num{
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing:-2px;
+    font-weight: 800;
+}
+.video{
+    background: url(./images/Bitmap\ \(1\).svg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
     @media screen and (max-width: 320px) {
         h1 {
             font-size: 56px;
@@ -90,5 +130,15 @@ hr{
         }
         .star{
             display: none;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: 0px;
+            line-height: 48px;
+        }
+        .video{
+            background: url(./images/Bitmap\ \(1\).svg);
+            width: 100px;
         }
     }
