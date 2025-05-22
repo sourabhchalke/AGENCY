@@ -15,6 +15,7 @@
     --color4:#ef6d58;
     --color5:#391400;
     --color6:#9747ff;
+    --hr:#f2b899;
 
 }
 /* Navbar */
@@ -68,14 +69,26 @@ h1{
     letter-spacing: 0px;
 }
 
-@media screen and (max-width: 320px) {
-    h1 {
-        font-size: 56px;
-        font-weight: 800;
-        letter-spacing: -1px;
-        line-height: 64px;
-    }
-    .star{
-        display: none;
-    }
+
+/* Logos */
+.logos{
+    max-height: 32px; /* or any desired height */
+    object-fit: contain;
 }
+.logo-sec{
+    background-color: var(--color2);
+}
+hr{
+    color: var(--hr);
+}
+    @media screen and (max-width: 320px) {
+        h1 {
+            font-size: 56px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 64px;
+        }
+        .star{
+            display: none;
+        }
+    }
