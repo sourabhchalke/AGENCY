@@ -22,7 +22,7 @@
 .nav-link{
     color: white;
 }
-.nav,.hero-section{
+.nav,.hero-section,.portfolio{
     background-color: var(--color3);
     color: white;
 }
@@ -119,6 +119,44 @@ h4{
     position: relative;
     background-position: center;
     background-size: cover;
+}
+
+/* Portfolio */
+sup{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 3px;
+}
+
+#portfolio-img1,#portfolio-img2,#portfolio-img3,#portfolio-img4{
+    height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio-img1{
+    background: url(./images/Bitmap\ \(2\).svg);
+}
+#portfolio-img2{
+    background: url(./images/Bitmap\ \(3\).svg);
+}
+#portfolio-img3{
+    background: url(./images/Bitmap\ \(4\).svg);
+}
+#portfolio-img4{
+    background: url(./images/Bitmap\ \(5\).svg);
+}
+.arrow:hover{
+    background: var(--color3);
+    border: 1px white solid;
+    color: white;
+}
+.team{
+    width: 90%;
+    height: 220px;
+    border: 1px rgb(60, 65, 97) solid;
 }
 
     @media screen and (max-width: 320px) {
