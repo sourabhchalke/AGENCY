@@ -63,12 +63,13 @@ h1{
     line-height: 80px;
 }
 
-.agency-text{
+.agency-text,.ul1,.accordion-text{
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0px;
 }
+
 
 
 /* Logos */
@@ -102,10 +103,10 @@ h2{
     letter-spacing: 0px;
     font-weight: 800;
 }
-h4{
+h4,.accordion-button{
     font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0px;
+    /* line-height: 32px; */
+    /* letter-spacing: 0px; */
     font-weight: 700;
 }
 .num{
@@ -159,6 +160,30 @@ sup{
     border: 1px rgb(60, 65, 97) solid;
 }
 
+/* Pricing */
+.pricing{
+    background: var(--color2);
+}
+.btn-2{
+    background-color: var(--color4);
+    border: 3px var(--color2) solid;
+}
+.btn-2:hover{
+    background-color: var(--color4);
+    border-radius: 0px;
+    border: 3px var(--color6) solid;
+    transition: none;
+}
+
+/* Map */
+.map{
+    height: 450px;
+}
+.contact{
+    background: white;
+    margin: 60px 80px;
+}
+
     @media screen and (max-width: 320px) {
         h1 {
             font-size: 56px;
@@ -179,4 +204,5 @@ sup{
             background: url(./images/Bitmap\ \(1\).svg);
             width: 100px;
         }
+        
     }
