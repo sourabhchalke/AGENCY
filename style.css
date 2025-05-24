@@ -9,14 +9,12 @@
     /* border: 0.1px red solid; */
 }
 :root{
-    --color1:#262626;
     --color2:#fdf0e9;
     --color3:#28293e;
     --color4:#ef6d58;
     --color5:#391400;
     --color6:#9747ff;
     --hr:#f2b899;
-
 }
 /* Navbar */
 .nav-link{
@@ -159,6 +157,10 @@ sup{
     height: 220px;
     border: 1px rgb(60, 65, 97) solid;
 }
+.gift-img{
+    height: 100px;
+}
+
 
 /* Pricing */
 .pricing{
@@ -209,5 +211,43 @@ sup{
             background: url(./images/Bitmap\ \(1\).svg);
             width: 100px;
         }
+        .gift1{
+            height: 150px;
+        }
+        .gift-img3{
+            height: 340px;
+            margin: 0px;
+        }
+        .gift-img{
+            margin:0% 22%;
+        }
+        .gifth5{
+            margin: 0px 40px;
+        }
+        .terms{
+            margin-right: auto;
+        }
         
+    }
+
+    @media screen and (width:1024px){
+        .gift1{
+            margin-top:50px;
+        }
+        .terms{
+            margin-right: 50px;
+        }
+    }
+
+    @media screen and (width:1440px){
+        .gift-img3{
+            width: 23%;
+            margin-left: 40px;
+        }
+        .gift1{
+            margin-top: 50px;
+        }
+        .terms{
+            margin-right: 50px;
+        }
     }
