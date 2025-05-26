@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&display=swap');
-.prata-regular {
-  font-family: "Prata", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 *{
-    /* border: 0.1px red solid; */
+    
+}
+*::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 :root{
     --color2:#fdf0e9;
@@ -19,6 +17,7 @@
 /* Navbar */
 .nav-link{
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .nav,.hero-section,.portfolio{
     background-color: var(--color3);
@@ -34,85 +33,91 @@
 }
 /* Hero Section */
 
-.star{
-    z-index: 0;
+.logo-sec,.about,.work{
+    background-color: var(--color2);
 }
-.btn-1{
-    background-color: var(--color4);
-    border: 3px var(--color3) solid;
-}
-.btn-1:hover{
-    background-color: var(--color4);
-    border-radius: 0px;
-    border: 3px var(--color6) solid;
-    transition: none;
-}
-.text-color{
+.modern-studio,.how-we,.video-reel,.portfolio-text,.get-start,.our-team,.price,.faq,.menu,.service{
     color: var(--color4);
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 3px;
     font-weight: 400;
+    font-family:"Montserrat";
 }
-h1{
-    font-size: 72px;
-    font-weight: 800;
+.we-are,.num2{
+    font-size: 70px;
+    font-weight: 700;
     letter-spacing: -2px;
     line-height: 80px;
+    /* font-family: "Inter"; */
 }
-
-.agency-text,.ul1,.accordion-text{
+.work-btn{
+    background-color: var(--color4);
+    border: 3px var(--color3) solid;
+}
+.work-btn:hover{
+    background-color: var(--color4);
+    border-radius: 0px;
+    border: 3px var(--color6) solid;
+    transition: none;
+}
+.design-text,.latest-work{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 60px;
+    color: var(--color5);
+}
+.para1{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: var(--color5);
+}
+.para2,.accordion-text{
     font-size: 16px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 30px;
     letter-spacing: 0px;
+} 
+.num,.making,.unlock,.work-text,.num3,.faq2{
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    color: var(--color5);
 }
-
-
-
-/* Logos */
-.logos{
-    max-height: 32px; /* or any desired height */
-    object-fit: contain;
+.read-more{
+    color: var(--color5);
 }
-.logo-sec,.about,.work{
-    background-color: var(--color2);
+.num2{
+    color: var(--color5);
+}
+.num2-text,.we-help{
+    color: var(--color5);
+    font-size: 24px;
+    font-weight: 700;
+}
+.accordion-button{
+    font-size: 22px;
+    font-weight: 700;
+}
+.agency{
+    color: var(--color5);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 hr{
     color: var(--hr);
 }
+.terms,.privacy,.footer-text{
+    color: var(--color5);
+    font-size: 17px;
+}
 
-/* About */
-h2{
-    font-size: 56px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    line-height: 64px;
-}
-.service-provide{
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0px;
-    font-weight: 400;
-}
-.h3{
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: 0px;
-    font-weight: 800;
-}
-h4,.accordion-button{
-    font-size: 24px;
-    /* line-height: 32px; */
-    /* letter-spacing: 0px; */
-    font-weight: 700;
-}
-.num{
-    font-size: 60px;
-    line-height: 80px;
-    letter-spacing:-2px;
-    font-weight: 800;
-}
+
 .video{
     background: url(./images/Bitmap1.svg);
     position: relative;
@@ -187,11 +192,11 @@ sup{
 }
 
 /* Footer */
-.ul2.li.a{
+/* .ul2.li.a{
     text-decoration: none;
-}
+} */
 
-    @media screen and (max-width: 320px) {
+     @media screen and (max-width: 320px) {
         h1 {
             font-size: 56px;
             font-weight: 800;
@@ -219,7 +224,7 @@ sup{
             margin: 0px;
         }
         .gift-img{
-            margin:0% 22%;
+            margin:0% 20%;
         }
         .gifth5{
             margin: 0px 40px;
@@ -229,7 +234,7 @@ sup{
         }
         
     }
-
+/*
     @media screen and (width:1024px){
         .gift1{
             margin-top:50px;
@@ -265,4 +270,5 @@ sup{
         .girl-img{
             width: 70%;
         }
-    }
+    } */
+
